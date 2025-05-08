@@ -29,6 +29,7 @@ Format:
   {"step": 2, "equation": "second equation"},
   ...
 ]
+if equation has a power like x2 it should be returned as x^2
 Ensure all handwritten math steps are captured in correct sequence.
 """
 
