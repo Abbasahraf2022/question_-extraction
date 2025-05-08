@@ -2,10 +2,10 @@ import google.generativeai as genai
 import json
 
 # Set your Gemini API Key
-genai.configure(api_key="AIzaSyAYtrqUyWVR0kkgOqA58vW5JOn_jvsZlOo")
+genai.configure(api_key="AIzaSyCw-5AWH-tUlpsWFoMTbvuZDwG8w_GeyZU")
 
 # Load image bytes
-image_path = "D:\\genai\\d1291b29-fc4f-4414-a3d7-87e852933c2e.jpeg"
+image_path = "D:\\gen\\question_-extraction\\d1291b29-fc4f-4414-a3d7-87e852933c2e.jpeg"
 with open(image_path, "rb") as f:
     img_bytes = f.read()
 
